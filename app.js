@@ -22,7 +22,7 @@ function agregarAmigo() {
         let imprimirLista = document.createElement('li');
         imprimirLista.textContent = listaPersonas[i];
         document.getElementById('listaAmigos').appendChild(imprimirLista);
-        console.log(imprimirLista);
+        //console.log(imprimirLista);
     }
 
     limpiarCaja();
