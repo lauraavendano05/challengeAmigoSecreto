@@ -43,7 +43,7 @@ function sortearAmigo() {
         document.querySelector('.button-add').disabled = true;
         setTimeout(() => {
             location.reload();
-        }, 10000);
+        }, 20000);
     }
 }
 
